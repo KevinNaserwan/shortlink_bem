@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class SessionController extends Controller
+{
+    function login()
+    {
+        return view("Shortlink/Login");
+    }
+
+    function index()
+    {
+        return view("Shortlink/index");
+    }
+}

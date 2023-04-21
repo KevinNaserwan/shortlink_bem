@@ -1,0 +1,86 @@
+html, body {
+    background-color: #FDE79F;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+body {
+    margin:0;
+    background-color: #FDE79F;
+}
+
+nav {
+    background-color: #22162B;
+    height: 6rem;
+    margin: auto;
+}
+
+#span1 {
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-left: 0.6rem;
+}
+
+.daftar {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 1.5rem;
+}
+
+#main-content {
+    background-color: #FDE79F;
+}
+
+.list-link {
+    flex-direction: column;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.link {
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #22162B;
+}
+
+.btn-detail {
+    gap: .3rem;
+    border: none;
+    width: 120px;
+    padding: .6rem 1rem;
+    background-color: #FDE79F;
+    transition: all .5s;
+}
+
+.round {
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background: #22162B;
+    transition: all .5s;
+    margin-top: -1px;
+}
+
+.p-detail {
+    padding-top: 0.1rem;
+    padding-right: 0.1;
+    color: #000;
+    font-weight: 600;
+    transition: all .5s;
+    font-size: 1rem;
+    text-decoration: none;
+    font-size:18px;
+    margin-top: -5px;
+}
+
+.link-address {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out .1s;
+    margin-right: 80px;
+}
