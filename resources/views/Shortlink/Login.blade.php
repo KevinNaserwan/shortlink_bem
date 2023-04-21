@@ -17,7 +17,7 @@
             </form>
         </div>
         <div class="formlogin form-container sign-in-container">
-            <form action="#">
+            <form action="/shortlink">
                 <h1 class="login">Login</h1>
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />

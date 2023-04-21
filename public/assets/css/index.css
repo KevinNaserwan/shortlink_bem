@@ -55,6 +55,10 @@ nav {
     transition: all .5s;
 }
 
+.btn-detail:hover {
+    background-color:#F3A712;
+}
+
 .round {
     width: .8rem;
     height: .8rem;
@@ -83,4 +87,34 @@ nav {
     text-decoration: none;
     transition: ease-in-out .1s;
     margin-right: 80px;
+}
+
+.link-address:hover {
+    color: #FDE79F;
+}
+
+@media only screen and (max-width: 500px){
+    .link-address {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        transition: ease-in-out .1s;
+        margin-right: -8px;
+    }
+
+    .daftar {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #000000;
+        margin-left: 1.5rem;
+    }
+
+    #span1 {
+        color: #fff;
+        font-family: 'Poppins';
+        font-weight: bold;
+        margin-left: 0.6rem;
+        font-size: 16px;
+      }
 }

@@ -7,7 +7,7 @@
                 <span id="span1">BEM KM FASILKOM UNSRI</span>
             </a>
             <form action="" class=" d-flex">
-                <a href="" class=" btn btn-outline-danger" style="color: white">Logout</a>
+                <a href="/shortlink/index" class=" btn btn-outline-danger" style="color: white">Logout</a>
             </form>
         </div>
     </nav>
