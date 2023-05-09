@@ -294,4 +294,11 @@ footer a {
         margin: 25px;
         margin-top: 150px;
     }
+
+	.container .alert {
+		position:absolute;
+		width: 150px;
+		height: 40px;
+		background-color:red;
+	}
 }

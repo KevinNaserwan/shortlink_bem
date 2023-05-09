@@ -1,6 +1,13 @@
 @extends('layout/login')
 @section('konten')
     <div class="container" id="container">
+        @if (Session::has('status'))
+            <div class="alert" role="alert">
+                {{ Session::get('message') }}
+            </div>
+        @endif
+        <div class="col-lg-5 col-md-7">
+        </div>
         <div class="form-container sign-up-container">
             <form action="#">
                 <h1>Create Account</h1>
@@ -17,10 +24,12 @@
             </form>
         </div>
         <div class="formlogin form-container sign-in-container">
-            <form action="/shortlink">
+            <form method="POST" action="/shortlink">
+                @csrf
                 <h1 class="login">Login</h1>
-                <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Password" />
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password"
+                    required />
                 <button>Login</button>
             </form>
         </div>

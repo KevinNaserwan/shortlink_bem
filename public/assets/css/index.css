@@ -27,6 +27,7 @@ nav {
     font-weight: bold;
     color: #000000;
     margin-left: 1.5rem;
+    margin-top: 3rem !important;
 }
 
 #main-content {
@@ -93,6 +94,189 @@ nav {
     color: #FDE79F;
 }
 
+#main-content .tambahlink {
+    position: absolute;
+    left: 943px;
+    top: 148px;
+    width: 187px;
+    height: 43px;
+    border-radius: 8px;
+    background-color: #22162b;
+}
+
+#main-content .tambahlink a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    width: 137px;
+    height: 30px;
+    text-decoration: none;
+}
+
+#main-content .tambahlink img {
+    position: absolute;
+    left: -18px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.form-link {
+    position: absolute;
+    left: 355px;
+    top: 223px;
+    width: 792px;
+    height: 351px;
+    border-radius: 15px;
+    background-color: #22162b;
+}
+
+.form-link h1 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 46px;
+    top: 42px;
+    width: 338px;
+    height: 29px;
+    flex-direction: column;
+}
+
+.line {
+    position: absolute;
+    left: 40px;
+    top: 78px;
+    width: 717px;
+    max-width: 100%;
+    height: 1px;
+    max-height: 100%;
+    background-color: #fff;
+}
+
+.back-button {
+    position: absolute;
+    left: 706px;
+    top: 30px;
+    width: 43px;
+    height: 37px;
+    background-color: #FDE79F;
+    border-radius: 7px;
+}
+
+.back-button img {
+    position: absolute;
+    width: 24px;
+    height: 12px;
+    top: 12px;
+    left: 9px; 
+}
+
+.form-link .inputshortname {
+    position: absolute;
+    left: 44px;
+    top: 103px;
+    width: 702px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-left: 288px;
+    outline: solid 1px #0000004d;
+    border: 1px solid #e5e5e5;
+    font-weight:550;
+}
+
+.form-link .inputlink {
+    position: absolute;
+    left: 44px;
+    top: 209px;
+    width: 702px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-left: 36px;
+    outline: solid 1px #0000004d;
+    border: 1px solid #e5e5e5;
+    font-weight: 550;
+}
+
+.form-link .title {
+    position: absolute;
+    left: 46px;
+    top: 103px;
+    width: 251px;
+    height: 45px;
+    border-radius: 10px 0 0 10px;
+    background-color: #d9d9d9;
+    z-index: 2;
+}
+
+.form-link p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 46px;
+    top: 11px;
+    width: 163px;
+    height: 24px;
+    flex-direction: column;
+}
+
+.form-link .alert {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 160px;
+    width: 488px;
+    height: 24px;
+    flex-direction: column;
+}
+
+.form-link .add {
+    left: 327px;
+    top: 289px;
+    width: 131px;
+    height: 36.6363px;
+    border-radius: 5px;
+    background-color: #fde79f;
+    outline: solid 1px #0000004d;
+    border: 1px solid #fde79f;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+}
+
+.form-link .add:hover {
+    background-color: #fd7e14;
+    border: 1px solid #fd7e14;
+}
+
+.warning {
+    position: absolute;
+    width: 703px;
+    height: 50px;
+    top: 225px;
+    left: 422px;
+    background-color: #FC9A9A;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-top: 11px;
+}
+
 @media only screen and (max-width: 500px){
     .link-address {
         font-size: 12px;
@@ -104,10 +288,11 @@ nav {
     }
 
     .daftar {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: bold;
         color: #000000;
-        margin-left: 1.5rem;
+        margin-left: 3.5rem;
+        margin-top: 3.3rem !important;
     }
 
     #span1 {
@@ -116,5 +301,181 @@ nav {
         font-weight: bold;
         margin-left: 0.6rem;
         font-size: 16px;
+      }
+      .form-link {
+        position: absolute;
+        left: 27px;
+        top: 200px;
+        width: 399px;
+        height: 351px;
+        border-radius: 15px;
+        background-color: #22162b;
+      }
+
+      .form-link h1 {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        position: absolute;
+        left: 46px;
+        top: 38px;
+        width: 338px;
+        height: 29px;
+      }
+
+      .line {
+        position: absolute;
+        left: 40px;
+        top: 70px;
+        width: 319px;
+        max-width: 100%;
+        height: 1px;
+        max-height: 100%;
+        background-color: #fff;
+      }
+
+      .back-button {
+        position: absolute;
+        left: 318px;
+        top: 29px;
+        width: 37px;
+        height: 32px;
+        background-color: #FDE79F;
+        border-radius: 7px;
+      }
+
+      .back-button img {
+        position: absolute;
+        width: 22px;
+        height: 12px;
+        top: 10px;
+        left: 8px;
+      }
+
+      .form-link .title {
+        position: absolute;
+        left: 46px;
+        top: 103px;
+        width: 125px;
+        height: 45px;
+        border-radius: 10px 0 0 10px;
+        background-color: #d9d9d9;
+        z-index: 2;
+      }
+
+      .form-link p {
+        color: #000;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        position: absolute;
+        left: 12px;
+        top: 16px;
+        width: 163px;
+        height: 24px;
+      }
+
+      .form-link .inputshortname {
+        position: absolute;
+        left: 44px;
+        top: 103px;
+        width: 314px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding-left: 145px;
+        outline: solid 1px #0000004d;
+        border: 1px solid #e5e5e5;
+        font-weight: 550;
+        font-size:12px;
+      }
+
+      .form-link .alert {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        position: absolute;
+        left: 30px;
+        top: 155px;
+        width: 488px;
+        height: 24px;
+      }
+
+      .form-link .inputlink {
+        position: absolute;
+        left: 44px;
+        top: 202px;
+        width: 314px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #fff;
+        padding-left: 18px;
+        outline: solid 1px #0000004d;
+        border: 1px solid #e5e5e5;
+        font-weight: 550;
+        font-size:12px;
+      }
+
+      .form-link .add {
+        left: 140px;
+        top: 280px;
+        width: 120px;
+        height: 31.6px;
+        border-radius: 5px;
+        background-color: #fde79f;
+        outline: solid 1px #0000004d;
+        border: 1px solid #fde79f;
+        color: #000;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        position: absolute;
+      }
+
+      .warning {
+        position: absolute;
+        width: 380px;
+        height: 50px;
+        top: 216px;
+        left: 34px;
+        background-color: #FC9A9A;
+        border-radius: 10px;
+        font-size: 16px;
+        padding-left: 25px;
+        padding-top: 11px;
+      }
+
+      #main-content .tambahlink {
+        position: absolute;
+        left: 288px;
+        top: 146px;
+        width: 121px;
+        height: 38px;
+        border-radius: 8px;
+        background-color: #22162b;
+      }
+
+      #main-content .tambahlink img {
+        position: absolute;
+        left: 11px;
+        top: -1px;
+        width: 15px;
+        height: 15px;
+      }
+
+      #main-content .tambahlink a {
+        color: #fff;
+        font-size: 11px;
+        font-weight: 600;
+        font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+        position: absolute;
+        left: 2px;
+        top: 12px;
+        width: 137px;
+        height: 30px;
+        text-decoration: none;
+      }
       }
 }
